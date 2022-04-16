@@ -37,9 +37,9 @@
         $mail->Port=587;
         $mail->SMTPSecure="tls";
         $mail->SMTPAuth=true;
-        $mail->Username="pruthvirajrajput305@gmail.com";
-        $mail->Password="Pruthvi@7384";
-        $mail->SetFrom("pruthvirajrajput305@gmail.com");
+        $mail->Username="YOUR EMAIL ID WRITE";
+        $mail->Password="YOUR EMAIL PASSWORD";
+        $mail->SetFrom("YOUR EMAIL ID WRITE");
         $mail->addAddress($email);
         $mail->IsHTML(true);
         $mail->Subject=$subject;
